@@ -10,7 +10,7 @@ It flags risky UPI payments, explains every flag in plain English, and chooses t
 python -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements.txt
 .\.venv\Scripts\jupyter notebook upi_fraud_detection.ipynb
-```
+``` 
 
 The notebook generates its own data (about 52k payments, 2,000 users, 6 months) and saves it to `data/upi_transactions.csv`. It runs in under a minute on a laptop. No download or Kaggle account is needed.
 
